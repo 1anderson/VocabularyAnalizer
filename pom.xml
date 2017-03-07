@@ -13,7 +13,7 @@
   <artifactId>VocabularyAnalizer</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>hpi</packaging>
-
+ 
   <properties>
     <!-- Baseline Jenkins version you use to build the plugin. Users must have this version or newer to run. -->
     <jenkins.version>1.625.3</jenkins.version>
@@ -84,5 +84,11 @@
     <artifactId>VocabularyExtractor</artifactId>
     <version>1.0.0</version>
 </dependency>
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-exec</artifactId>
+    <version>1.3</version>
+</dependency>
 </dependencies>
+
 </project>
